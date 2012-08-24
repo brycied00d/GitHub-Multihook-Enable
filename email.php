@@ -25,7 +25,7 @@ if(!$github_username)
 if(!$github_password)
 	die("You must specify your GitHub password.".PHP_EOL);
 if(!$email_address)
-	die("You must specify email address.".PHP_EOL);
+	die("You must specify the email address.".PHP_EOL);
 
 $ch_repos = curl_init("https://api.github.com/user/repos");
 apply_curl_setopt($ch_repos);

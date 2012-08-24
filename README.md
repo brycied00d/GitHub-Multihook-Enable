@@ -19,6 +19,12 @@ Syntax: `php email.php github_username github_password email_address [email_secr
 It's pretty self-explanatory... Even has useful output. And help!
 
 
+Delete
+------
+Syntax: `php delete.php github_username github_password hook_name`  
+Should you need to delete a given hook from all of your repos, this is the script to do it.
+
+
 TODO
 ----
  * Rewrite in Python

@@ -21,6 +21,12 @@ The email_secret fills out the Approved header to automatically approve the mess
 By default, this does not send from your user (checkbox un-checked). If you want to enable this, edit the source (look for XXX)
 
 
+Jabber
+------
+Syntax: `php jabber.php github_username github_password jabber_address`  
+It's pretty self-explanatory... Even has useful output. And help!
+
+
 Delete
 ------
 Syntax: `php delete.php github_username github_password hook_name`  

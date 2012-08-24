@@ -19,6 +19,14 @@ Syntax: `php email.php github_username github_password email_address [email_secr
 It's pretty self-explanatory... Even has useful output. And help!
 
 
+TODO
+----
+ * Rewrite in Python
+ * Make this more flexible, to support any and all GitHub service hooks (maybe with a GUI, with Q&A)
+ * Add the ability to overwrite (GitHub PATCH method) existing service hook configuration.
+ * Send an optional test notification after adding the notification.
+
+
 Thanks and References
 ---------------------
 Thanks to [Pushover.net](http://pushover.net)  

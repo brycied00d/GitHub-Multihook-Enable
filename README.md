@@ -13,6 +13,12 @@ Syntax: `php pushover.php github_username github_password pushover_apikey [pusho
 It's pretty self-explanatory... Even has useful output. And help!
 
 
+Email
+-----
+Syntax: `php email.php github_username github_password email_address [email_secret]`  
+It's pretty self-explanatory... Even has useful output. And help!
+
+
 Thanks and References
 ---------------------
 Thanks to [Pushover.net](http://pushover.net)  

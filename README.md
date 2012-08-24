@@ -16,7 +16,9 @@ It's pretty self-explanatory... Even has useful output. And help!
 Email
 -----
 Syntax: `php email.php github_username github_password email_address [email_secret]`  
-It's pretty self-explanatory... Even has useful output. And help!
+It's pretty self-explanatory... Even has useful output. And help!  
+The email_secret fills out the Approved header to automatically approve the message in a read-only or moderated mailing list.  
+By default, this does not send from your user (checkbox un-checked). If you want to enable this, edit the source (look for XXX)
 
 
 Delete

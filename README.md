@@ -27,6 +27,13 @@ Syntax: `php jabber.php github_username github_password jabber_address`
 It's pretty self-explanatory... Even has useful output. And help!
 
 
+IRC
+---
+Syntax: `php irc.php github_username github_password irc_server irc_port irc_room irc_nick`  
+It's pretty self-explanatory... Even has useful output. And help!  
+By default, SSL is off, message_without_join is off, no_colors is off, long_url is on, and notice is off.
+
+
 Delete
 ------
 Syntax: `php delete.php github_username github_password hook_name`  
